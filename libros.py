@@ -34,3 +34,43 @@ def buscar_por_id(libros, id):
        if libro['id'] == id:
         return libro
    return None
+
+
+def prestar_libro(libro):
+      if libro['prestado'] == True:
+            return False
+      else:
+            libro['prestado'] = True
+            return True
+    
+def devolver_libro(libro):
+    if not libro['prestado']:
+        return False
+    
+    libro['prestado'] = False
+    return True
+
+
+def obtener_libros_disponibles(libros):
+    disponibles = []
+    for libro in libros:
+        if libro['prestado'] == False:
+            disponibles.append(libro)
+    return disponibles
+
+
+def obtener_libros_prestados(libros):
+    prestados = []
+    for libro in libros:
+        if libro['prestado']:
+            prestados.append(libro)
+     
+    return prestados   
+
+def buscar_por_categoria(libros, categoria):
+    libros_por_categoria =[]
+    for libro in libros:
+        if libro['categoria'].lower() == categoria:
+            libros_por_categoria.append(libro)
+    return libros_por_categoria
+
