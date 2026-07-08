@@ -1,9 +1,9 @@
-from menu import menu
-from libros import mostar_libros,agregar_libro,buscar_por_id,prestar_libro,devolver_libro,obtener_libros_disponibles,obtener_libros_prestados,buscar_por_categoria
-from entradas import pedir_datos_libro,pedir_numero,pedir_texto
-from persistencia import guardar_libros,cargar_libros
+from libros.menu_libros import menu
+from libros.libros import mostar_libros,agregar_libro,buscar_por_id,prestar_libro,devolver_libro,obtener_libros_disponibles,obtener_libros_prestados,buscar_por_categoria
+from utils.entradas import pedir_datos_libro,pedir_numero,pedir_texto
+from libros.persistencia import guardar_libros,cargar_libros
 
-RUTA_DE_LIBROS = 'libros.json'
+RUTA_DE_LIBROS = 'data/libros.json'
 libros = cargar_libros(RUTA_DE_LIBROS)
 
 
@@ -68,9 +68,9 @@ while True:
             print('no hay libros prestados')
     elif opcion == '8':
         categoria = pedir_texto('Que categoria prefieres: ').lower()
-        filtrado_categorias = buscar_por_categoria(libros, categoria)
-        if filtrado_categorias:
-            mostar_libros(filtrado_categorias)
+        libros_filtrados = buscar_por_categoria(libros, categoria)
+        if libros_filtrados:
+            mostar_libros(libros_filtrados)
         else:
             print('no tenemos esa categoria')
     elif opcion == '9':

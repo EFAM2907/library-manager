@@ -19,11 +19,3 @@ def cargar_libros(ruta):
 
 
 
-
-anios = [3, 1, 2]
-
-for i in range(len(anios)):
-    for j in range(len(anios) - 1):
-        if anios[j] > anios[j + 1]:
-           print(anios[j])
-
