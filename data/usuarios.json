@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Edwin Arias",
+        "email": "edwin.arias@email.com",
+        "activo": true
+    },
+    {
+        "id": 2,
+        "nombre": "Angie Daniela",
+        "email": "angie.daniela@email.com",
+        "activo": true
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos Pérez",
+        "email": "carlos.perez@email.com",
+        "activo": false
+    },
+    {
+        "id": 4,
+        "nombre": "Laura Gómez",
+        "email": "laura.gomez@email.com",
+        "activo": true
+    },
+    {
+        "id": 5,
+        "nombre": "Santiago Ramírez",
+        "email": "santiago.ramirez@email.com",
+        "activo": true
+    },
+    {
+        "id": 6,
+        "nombre": "Juan",
+        "email": "juan@gmail.com",
+        "activo": true
+    },
+    {
+        "id": 7,
+        "nombre": "camilo",
+        "email": "camiloperez@gmail.com",
+        "activo": true
+    },
+    {
+        "id": 8,
+        "nombre": "nestor",
+        "email": "nestorcamacho@.123",
+        "activo": true
+    }
+]

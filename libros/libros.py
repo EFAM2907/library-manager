@@ -1,4 +1,4 @@
-
+from utils.entradas import pedir_numero,pedir_texto
 def generar_id(libros):
     if not libros:
         return 1
@@ -73,4 +73,13 @@ def buscar_por_categoria(libros, categoria):
         if libro['categoria'].lower() == categoria:
             libros_por_categoria.append(libro)
     return libros_por_categoria
+
+
+def pedir_datos_libro():
+    titulo = pedir_texto('nombre del libro: ')
+    autor = pedir_texto('nombre del autor: ')
+    categoria = pedir_texto('que categoria de libro es: ')
+    anio = pedir_numero('anio del libro: ')
+    
+    return titulo, autor, categoria, anio
 
