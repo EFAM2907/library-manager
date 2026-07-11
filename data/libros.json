@@ -13,7 +13,7 @@
         "autor": "Eric Matthes",
         "categoria": "Programacion",
         "anio": 2019,
-        "prestado": false
+        "prestado": true
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "autor": "Yuval Noah Harari",
         "categoria": "Historia",
         "anio": 2011,
-        "prestado": true
+        "prestado": false
     },
     {
         "id": 4,

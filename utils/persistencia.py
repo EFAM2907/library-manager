@@ -7,6 +7,8 @@ def cargar_datos(ruta):
     except FileNotFoundError:
         print("No se encontró el archivo.")
         return []
+    except json.JSONDecodeError:
+        return []
 
 
 def guardar_datos(ruta, lista):
