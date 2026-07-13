@@ -70,3 +70,7 @@ def realizar_prestamos(prestamos, usuarios, usuario,libros, libro):
             #else:
             #   fecha_prestamo = str(date.today())  # '2026-07-10'
             #   registrar_prestamos(prestamos,usuario['id'],libro['id'],fecha_prestamo)
+            
+            
+            
+    

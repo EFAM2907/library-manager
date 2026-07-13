@@ -5,6 +5,14 @@
         "id_libro": 2,
         "fecha_prestamo": "2026-07-11",
         "fecha_devolucion": null,
-        "devuelto": false
+        "3": false
+    },
+    {
+        "id": 2,
+        "id_usuario": 4,
+        "id_libro": 5,
+        "fecha_prestamo": "2026-07-12",
+        "fecha_devolucion": "2026-07-12",
+        "devuelto": true
     }
 ]

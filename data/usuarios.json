@@ -46,5 +46,11 @@
         "nombre": "nestor",
         "email": "nestorcamacho@.123",
         "activo": true
+    },
+    {
+        "id": 9,
+        "nombre": "Hernan Arias",
+        "email": "Hernanarias@gmail.123",
+        "activo": true
     }
 ]

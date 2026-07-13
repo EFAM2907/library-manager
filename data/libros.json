@@ -37,7 +37,7 @@
         "autor": "Antoine de Saint-ExupÃƒÂ©ry",
         "categoria": "Novela",
         "anio": 1943,
-        "prestado": false
+        "prestado": true
     },
     {
         "id": 6,
